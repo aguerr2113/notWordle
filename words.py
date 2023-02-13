@@ -1,4 +1,4 @@
-words = [
+wordy = [
 'aahed',
 'aalii',
 'aargh',

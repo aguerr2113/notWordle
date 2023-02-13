@@ -1,7 +1,7 @@
 
 import os, random
+from words import wordy
 os.system("clear")
-from words import words
 
 BG_GREEN = "\u001b[42m"
 BG_YELLOW = "\u001b[43m"
@@ -9,7 +9,7 @@ RESET = "\u001b[0m"
 
 print("WORDLE")
 
-correct = random.choice(words)
+correct = random.choice(wordy)
 # You get six chances to guess
 for _ in range(6):
     guess = input("Please guess. > ").upper()
